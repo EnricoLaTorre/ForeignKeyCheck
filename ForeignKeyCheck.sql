@@ -12,7 +12,7 @@
 
 	Supported versions: PostgreSQL 9.5 and up
 .NOTES
-    Author:				Enrico La Torre
+    Author:			Enrico La Torre
     Last change:		2020-04-21 15:15
 */
 DO $body$
