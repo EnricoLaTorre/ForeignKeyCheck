@@ -1,4 +1,4 @@
-# ForeignKeyCheck
+# Foreign Key Check - PL/pgSQL script
 Check all foreign keys in a PostgreSQL database for logical integrity.
 
 Foreign key integrity is vital for your referential integrity and your data qualtiy. 
@@ -21,3 +21,7 @@ The set of bad foreign key rows is collected in a temporary result table. This t
 'DBCC CHECKCONSTRAINTS' of MS SQL Server
 
 See https://docs.microsoft.com/en-us/sql/t-sql/database-console-commands/dbcc-checkconstraints-transact-sql
+
+# Sources
+
+I adapted the query to read the foreign key definition from here https://dba.stackexchange.com/a/218969
